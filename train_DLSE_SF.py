@@ -340,10 +340,10 @@ Optimizer = Adam(lr=0.00001)
 resnet_encoder = Model(inputs=model_inp, outputs=network)
 resnet_encoder.compile(optimizer=Optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 
-checkpoint_loss = ModelCheckpoint('/scratch/uvaydov.d/model/se_only_cust_soft2_512x912/Segmentation_val_loss.{val_loss:.4f}-{epoch:03d}.h5', monitor='val_loss', verbose=1, save_best_only=True, save_weights_only=True, mode='auto', period=1)
-checkpoint_acc = ModelCheckpoint('/scratch/uvaydov.d/model/se_only_cust_soft2_512x912/Segmentation_val_acc.{val_acc:.4f}-{epoch:03d}.h5', monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=True, mode='auto', period=1)
+checkpoint_loss = ModelCheckpoint('model/se_only_cust_soft2_512x912/Segmentation_val_loss.{val_loss:.4f}-{epoch:03d}.h5', monitor='val_loss', verbose=1, save_best_only=True, save_weights_only=True, mode='auto', period=1)
+checkpoint_acc = ModelCheckpoint('model/se_only_cust_soft2_512x912/Segmentation_val_acc.{val_acc:.4f}-{epoch:03d}.h5', monitor='val_acc', verbose=1, save_best_only=True, save_weights_only=True, mode='auto', period=1)
 
-resnet_encoder.load_weights("/scratch/uvaydov.d/model/se_only_cust_soft2_256x448/Segmentation_val_acc.0.8149-010.h5", by_name=True)
+resnet_encoder.load_weights("model/se_only_cust_soft2_256x448/Segmentation_val_acc.0.8149-010.h5", by_name=True)
 
 resnet_encoder.fit_generator(train_gen.get_batch(),
                              steps_per_epoch=train_gen.get_size() // batch_size,
