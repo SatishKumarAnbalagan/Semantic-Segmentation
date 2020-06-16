@@ -1,0 +1,2 @@
+# Semantic-Segmentation
+Classified &amp; clustered every pixel in cityscape dataset image belonging to same object class in modified Google DeepLabV3 architecture. Enhanced boundary detection of the Image Net (ResNet) with atrous conv &amp; Atrous Spatial Pyramid Pooling (ASPP) with variable dilation rates by using end to end Holistic Edge Detection(HED) technique. Added Squeeze &amp; Excitation (SE) block to improve channel attention &amp; also tested softmax in stead of sigmoid for last layer of SE.
