@@ -1,7 +1,6 @@
 '''
 
 Project - Sematic segmentation
-EECE 7398: DEEP LEARNING IN EMBEDDED SYSTEMS
 
 DeepLabs v3 with Squeeze and Excitation and HED Preprocessing (DLSE-HED)
 
