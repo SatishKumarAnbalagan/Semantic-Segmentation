@@ -90,4 +90,4 @@ image2.png, image2label.png, image2hedprocessed.png
 Files with "train" or "test" in the beginning are models, run without any input arguments 
 ex: python train_DLSE.py
 
-
+![Screen%20Shot%202020-06-17%20at%203.42.41%20PM.png](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/Screen%20Shot%202020-06-17%20at%203.42.41%20PM.png)
