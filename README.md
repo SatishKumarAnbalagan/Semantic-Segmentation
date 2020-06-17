@@ -29,8 +29,11 @@ preprocessHED.py: pretrained HED for preprocessing inputs
 [train/test]_vanilla.py: train DeepLabsV3
 
 Traget :
+
 ![V1.jpg](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/V1.jpg)
+
 Predicted :
+
 ![V2.jpg](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/V2.jpg)
 
 [train/test]_DLSE.py: train DeepLabsV3 with Squeeze and Excitation Networks
