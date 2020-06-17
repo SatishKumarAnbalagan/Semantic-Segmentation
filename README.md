@@ -38,9 +38,33 @@ Predicted :
 
 [train/test]_DLSE.py: train DeepLabsV3 with Squeeze and Excitation Networks
 
+Traget :
+
+![DLSE-T.png](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/DLSE-T.png)
+
+Predicted :
+
+![DLSE-P.png](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/DLSE-P.png)
+
 [train/test]_DLSE_SF.py: train DeepLabsV3 with Squeeze and Excitation Networks using Softmax
 
+Traget :
+
+![DLSE-SF-T.png](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/DLSE-SF-T.png)
+
+Predicted :
+
+![DLSE-SF-P.png](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/DLSE-SF-P.png)
+
 [train/test]_DLSE_HED.py: train DeepLabsV3 with Squeeze and Excitation Networks with Hollistic Edge Detection Preprocessing
+
+Traget :
+
+![DLSE-SE-HED-T.png](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/DLSE-SE-HED-T.png)
+
+Predicted :
+
+![DLSE-SE-HED-P.png](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/DLSE-SE-HED-P.png)
 
 bgenerator.py: batch generator used in running models
 
