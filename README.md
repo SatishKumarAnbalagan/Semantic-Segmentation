@@ -60,11 +60,11 @@ Predicted :
 
 Traget :
 
-![DLSE-SE-HED-T.png](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/DLSE-SE-HED-T.png)
+![DLSE-HED-T.png](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/DLSE-HED-T.png)
 
 Predicted :
 
-![DLSE-SE-HED-P.png](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/DLSE-SE-HED-P.png)
+![DLSE-HED-P.png](https://github.com/SatishKumarAnbalagan/Semantic-Segmentation/blob/master/results/DLSE-HED-P.png)
 
 bgenerator.py: batch generator used in running models
 
